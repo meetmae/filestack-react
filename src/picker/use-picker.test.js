@@ -1,4 +1,4 @@
-import { renderHook } from '@testing-library/react';
+import { renderHook } from '@testing-library/react-hooks';
 import usePicker from './use-picker';
 
 jest.mock('filestack-js', () => ({
